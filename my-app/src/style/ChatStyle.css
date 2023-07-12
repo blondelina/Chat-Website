@@ -1,0 +1,126 @@
+.chatContainer{
+    background-color:white;
+    border-radius: 3vh;
+    height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.typeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 2vh;
+}
+
+.chatBubbles{
+    width: 74vh;
+    height:70vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-right: 4vh;
+    padding-left: 4vh;
+    overflow-y: scroll;
+}
+
+.sent{
+    width: 70vh;
+    display: flex;
+    justify-content: end;
+}
+
+.received{
+    width: 70vh;
+    display: flex;
+}
+
+.textField{
+    width: 50vh;
+}
+
+.chatBubble{
+    min-width: 20vh;
+    max-width: 50vh;
+    min-height: 3vh;
+    border-radius: 3vh;
+    justify-self: end;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 1.2vh;
+    margin: 0.3vh;
+    white-space: normal;
+    word-wrap: break-word;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.chatBubbleSent{
+    background-color: pink;
+}
+
+.chatBubbleRecieved{
+    background-color: rgb(181, 181, 181);
+}
+
+.frontPageContainer{
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.usernameTextField{
+    width: 20vh;
+    align-self: center;
+}
+
+.frontPageButton{
+    width: 10vh;
+    align-self: center;
+    margin: 1vh;
+}
+
+.username{
+    margin-left: 2vh;
+    font-size: small;
+    color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .chatContainer{
+        max-width: 90%;
+    }
+
+    .chatBubble{
+        max-width: 20%;
+        font-size: small;
+
+    }
+
+    .chatBubbles{
+        max-width: 80%;
+    }
+
+    .chatBubbleContainer{
+        max-width: 50%;
+    }
+
+    .sent{
+        max-width: 90%;
+    }
+
+    .received{
+        max-width: 90%;
+    } 
+}

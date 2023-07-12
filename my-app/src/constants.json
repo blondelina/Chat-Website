@@ -1,0 +1,9 @@
+{
+    "chatHub":"https://localhost:7007/ChatHub",
+    "ReceiveMessage": "ReceiveMessage",
+    "JoinedRoomMessage": "JoinedRoomMessage",
+    "LeftRoomMessage": "LeftRoomMessage",
+    "LeaveRoom": "LeaveRoom",
+    "JoinRoom": "JoinRoom",
+    "SendMessage": "SendMessage"
+}
