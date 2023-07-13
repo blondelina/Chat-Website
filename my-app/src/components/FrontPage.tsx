@@ -17,6 +17,7 @@ function FrontPage() {
             <div className="frontPageContainer">
                 <h1>Choose your username:</h1>
                 <TextField
+                    maxLength={15}
                     className='usernameTextField'
                     placeholder='Username...'
                     value={username}

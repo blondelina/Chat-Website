@@ -4,7 +4,7 @@ import ChatBubbleSent from './ChatBubbleSent';
 import ChatBubbleRecieved from './ChatBubbleRecieved';
 import { HttpTransportType, HubConnection, HubConnectionBuilder, HubConnectionState } from '@microsoft/signalr';
 import { useEffect, useState } from 'react';
-import * as constants from '../constants.json';
+import constants from '../constants.json';
 import MessageEnum from '../models/MessageEnum';
 
 interface Message {
